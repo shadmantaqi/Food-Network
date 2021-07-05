@@ -1,6 +1,36 @@
 body {
   margin: 0;
 }
+
+
+/* 4th part */
+.follow-count {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  border: solid white;
+  border-radius: 15px;
+  margin: 100px;
+  text-align: center;
+  padding: 64px 165px;
+  box-shadow: 0px 0px 20px 5px rgb(241, 235, 235);
+}
+.count {
+  /* margin-right: 30px; */
+  margin-left: 15%;
+}
+.high {
+  font-weight: 700;
+  font-size: 72px;
+  font-display: b;
+  margin: 0;
+}
+.low {
+  font-weight: 400;
+  font-size: 16;
+}
+
+/* css code for footer */
+
 .footer {
   text-align: center;
   background-color: #0b0d17;
@@ -11,7 +41,7 @@ body {
 
 .footer h1 {
   color: #5b5b5b;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 30px;
   font-weight: 800;
   line-height: 40px;
@@ -20,6 +50,6 @@ body {
   color: #fb984c;
 }
 .footer p {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26px;
 }

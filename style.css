@@ -1,7 +1,41 @@
 body {
   margin: 0;
 }
-
+/*3rd Part*/
+.recipe-top {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.recipe-top h2 {
+  font-size: 36px;
+  color: #676767;
+}
+.recipe-top p {
+  line-height: 25px;
+}
+.card-holder {
+  display: flex;
+  margin: 0 100px;
+}
+.card-holder img {
+  width: 100%;
+}
+.card {
+  border-radius: 15px;
+  border: solid white;
+  box-shadow: 0px 0px 20px 5px rgb(241, 235, 235);
+  padding: 20px;
+  margin: 30px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+.card h2 {
+  font-weight: 900;
+}
+.card-mid {
+  margin: 30px 100px;
+}
 
 /* 4th part */
 .follow-count {

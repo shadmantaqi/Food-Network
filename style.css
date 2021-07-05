@@ -1,7 +1,36 @@
 body {
   margin: 0;
 }
+/* 1st part */
+.top-bar{
+    display: flex;
+    margin-bottom: 300px;
+}
+.left{
+    width: 50%;
+    margin: 150px 0 0 150px;
+}
+.left span{
+    color: #FBA24F;
+}
+.left h1{
+    font-family: "Montserrat", sans-serif;
+    color: #707070;
+    font-weight: 700;
+    font-size: 60px;
+}
+.left p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 500;
+    margin-right: 400px;
+    color: #828282;    ;
+}
 
+.right{
+    padding-top: 50px;
+}
 
 /* 2nd part */
 .about{
@@ -31,11 +60,11 @@ body {
     font-weight: 400;
 }
 
-.contact{
+.button{
     text-decoration: none;
     border: none;
-    border-radius: 100px;
-    padding: 24px 32px;
+    border-radius: 80px;
+    padding: 30px 46px;
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
